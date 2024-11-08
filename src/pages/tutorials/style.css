@@ -1,0 +1,135 @@
+/* Container for the tutorial content */
+.tutorial-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main heading styling */
+  .tutorial-container h2 {
+    font-size: 32px;
+    color: #2e3b4e;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Sub-heading styling */
+  .tutorial-container h3 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+  }
+  
+  /* Paragraph styling */
+  .tutorial-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  /* Preformatted code block styling */
+  pre {
+    background-color: #282c34;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }
+  
+  /* Code inside pre block styling */
+  pre code {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  /* Unordered list styling for props, methods, etc. */
+  ul {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    list-style-type: disc;
+  }
+  
+  /* Adding styling for list items with custom style */
+  ul li strong {
+    color: #2e3b4e;
+  }
+  
+  /* Highlighted code sections */
+  code {
+    font-size: 16px;
+    background-color: #f4f4f4;
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  /* Styling for anchors or links inside the content */
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+    border-bottom: 1px solid #4CAF50;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  
+  a:hover {
+    color: #2e3b4e;
+    border-color: #2e3b4e;
+  }
+  
+  /* Styling for the component example box */
+  .component-box {
+    background-color: #eef7f2;
+    border: 1px solid #4CAF50;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .tutorial-container {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    .tutorial-container h2 {
+      font-size: 28px;
+    }
+  
+    .tutorial-container h3 {
+      font-size: 20px;
+    }
+  
+    .tutorial-container p {
+      font-size: 16px;
+    }
+  
+    pre {
+      font-size: 14px;
+    }
+  
+    ul {
+      font-size: 16px;
+    }
+  }
+  

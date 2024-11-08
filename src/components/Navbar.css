@@ -1,0 +1,22 @@
+/* Navbar.css */
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  nav a:hover {
+    color: #0056b3;
+  }
+  

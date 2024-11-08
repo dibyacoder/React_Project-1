@@ -1,22 +1,70 @@
-/* Navbar.css */
-
+/* Sidebar styling */
 nav {
     display: flex;
-    justify-content: flex-start;
-    background-color: #f8f9fa;
-    padding: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  nav a {
-    margin-right: 1.5rem;
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: flex-start; /* Align items to the left */
+    background-color: #d41717; /* Darker background for contrast */
+    padding: 2rem 1rem;
+    position: fixed; /* Fixed sidebar */
+    top: 0;
+    left: 0; /* Align sidebar to the left */
+    height: 100%; /* Full height of the viewport */
+    width: 250px; /* Set a fixed width for the sidebar */
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    z-index: 2; /* Keep sidebar above content */
+    transition: transform 0.3s ease; /* Smooth transition when sidebar is toggled */
+}
+
+/* Sidebar closed state */
+nav.closed {
+    transform: translateX(-100%); /* Move the sidebar off-screen when closed */
+}
+
+/* Sidebar links styling */
+.navbar-links {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    align-items: flex-start; /* Align items to the left */
+    width: 100%; /* Full width */
+}
+
+.navbar-links a {
+    color: #ecf0f1; /* Lighter text color */
     text-decoration: none;
-    color: #007bff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 100%; /* Make the link take full width */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    margin-bottom: 1rem; /* Adds space between links */
+}
+
+/* Hover effect */
+.navbar-links a:hover {
+    color: #fff; /* Text color change on hover */
+    background-color: #a31b1b; /* Background color change */
+    transform: translateY(-3px); /* Slight lift effect */
+    font-size: 1.3rem; /* Increase font size on hover */
+}
+
+/* Fixed Toggle Button outside the sidebar */
+.toggle-btn {
+    display: block;
+    padding: 1rem;
+    background-color: #130c0c;
+    color: #d41717;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
     font-weight: bold;
-    font-size: 1.1rem;
-  }
-  
-  nav a:hover {
-    color: #0056b3;
-  }
-  
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 150px;
+    text-align: center;
+    position: fixed; /* Fix the button on the page */
+    bottom: 10px; /* Position at the top-left corner */
+    left: 10px;
+    z-index: 3; /* Ensure button stays above other content */
+}

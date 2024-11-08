@@ -11,7 +11,7 @@ function Home() {
           Explore our tutorials to learn React step by step! We offer a range of tutorials 
           from beginner to advanced levels to help you master React and build amazing web applications.
         </p>
-        <Link to="/tutorials" className="home-button">Get Started</Link>
+        <Link to="/tutorials/react-introduction" className="home-button">Get Started</Link>
       </div>
     );
   }

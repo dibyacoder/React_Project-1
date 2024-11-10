@@ -3,7 +3,7 @@ nav {
     display: flex;
     flex-direction: column; /* Stack navbar items vertically */
     align-items: flex-start; /* Align items to the left */
-    background-color: #d41717; /* Darker background for contrast */
+    background-color: #178fd4; /* Darker background for contrast */
     padding: 2rem 1rem;
     position: fixed; /* Fixed sidebar */
     top: 0;
@@ -13,6 +13,7 @@ nav {
     box-shadow: 4px 0 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
     z-index: 2; /* Keep sidebar above content */
     transition: transform 0.3s ease; /* Smooth transition when sidebar is toggled */
+    overflow-y: auto; /* Enables vertical scrolling */
 }
 
 /* Sidebar closed state */
@@ -43,7 +44,7 @@ nav.closed {
 /* Hover effect */
 .navbar-links a:hover {
     color: #fff; /* Text color change on hover */
-    background-color: #a31b1b; /* Background color change */
+    background-color: #1b7aa3; /* Background color change */
     transform: translateY(-3px); /* Slight lift effect */
     font-size: 1.3rem; /* Increase font size on hover */
 }

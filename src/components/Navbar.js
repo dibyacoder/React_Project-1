@@ -20,9 +20,13 @@ const Navbar = () => {
           <div className="navbar-links">
             <Link to="/">Home</Link>
             <Link to="/tutorials/react-introduction">React Introduction</Link>
+            <Link to="/tutorials/react-installation">React Installation</Link>
             <Link to="/tutorials/create-react-app">Create React App</Link>
             <Link to="/tutorials/react-features">React Features</Link>
             <Link to="/tutorials/react-components">React Components</Link>
+            <Link to="/tutorials/react-state">React State</Link>
+            <Link to="/tutorials/react-component-API">React Component API</Link>
+
           </div>
         </nav>
   

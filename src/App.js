@@ -10,6 +10,9 @@ import CreateReactApp from './pages/tutorials/CreateReactApp';
 import ReactComponents from './pages/tutorials/ReactComponents';
 import ReactFeatures from './pages/tutorials/ReactFeatures';
 import ReactIntroduction from './pages/tutorials/ReactIntroduction';
+import ReactState from './pages/tutorials/ReactState';
+import ReactInstallation from './pages/tutorials/ReactInstallation';
+import ReactComponentAPI from './pages/tutorials/ReactComponentAPI';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path="/tutorials/react-components" element={<ReactComponents />} />
         <Route path="/tutorials/react-features" element={<ReactFeatures />} />
         <Route path="/tutorials/react-introduction" element={<ReactIntroduction />} />
+        <Route path="/tutorials/react-state" element={<ReactState />} />
+        <Route path="/tutorials/react-installation" element={<ReactInstallation />} />
+        <Route path="/tutorials/react-component-API" element={<ReactComponentAPI />} />
       </Routes>
     </Router>
   );

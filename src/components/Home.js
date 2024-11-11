@@ -16,7 +16,7 @@ function Home() {
         <Link to="/tutorials/react-introduction" className="home-button">Get Started</Link>
 
         <footer className="footer">
-        <p>&copy; 2024 Ravi Kumar. All rights reserved.</p>
+        <p>&copy; 2024 Dibya Ranjan Sahu. All rights reserved.</p>
         <div className="footer-links">
           <a href="/about" target="_blank" rel="noopener noreferrer">About</a>
           <a href="/services" target="_blank" rel="noopener noreferrer">Services</a>
@@ -28,14 +28,11 @@ function Home() {
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
             <FaFacebook />
           </a>
-          <a href="https://leetcode.com/u/Ravi_kumar_6996/" target="_blank" rel="noopener noreferrer">
+          <a href="https://leetcode.com/u/dibu_001/" target="_blank" rel="noopener noreferrer">
             <SiLeetcode />
           </a>
-          <a href="https://www.linkedin.com/in/ravi-kumar-5b3469230/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/dibya-ranjan-sahu-203906278" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
-          </a>
-          <a href="https://github.com/Ravi6996" target="_blank" rel="noopener noreferrer">
-            <FaGithub />
           </a>
         </div>
         </footer>
